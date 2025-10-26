@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ccee8033-88df-4ecf-8f57-d6c93c61a701")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 29.21 40.64)
+		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2a9822ba-b22b-4915-a848-999ad8f5695e")
+		(property "Sheetname" "usb-input"
+			(at 29.21 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-input.kicad_sch"
+			(at 29.21 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dc-dc-converter"
+				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 27.94)
+		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66d35e0b-7a94-4b8f-acad-501f1b0d8814")
+		(property "Sheetname" "battery-input"
+			(at 29.21 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery-input.kicad_sch"
+			(at 29.21 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dc-dc-converter"
+				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 52.07)
+		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72febd49-5656-4f09-bfcd-5afa6d494af7")
+		(property "Sheetname" "logic-regulators"
+			(at 29.21 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic-regulators.kicad_sch"
+			(at 29.21 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dc-dc-converter"
+				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 63.5)
+		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ccc81ae3-c0ae-48e8-b4b9-d9f6a1856120")
+		(property "Sheetname" "control"
+			(at 29.21 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 29.21 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dc-dc-converter"
+				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
