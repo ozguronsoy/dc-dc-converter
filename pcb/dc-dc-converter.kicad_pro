@@ -627,6 +627,10 @@
     [
       "ccc81ae3-c0ae-48e8-b4b9-d9f6a1856120",
       "control"
+    ],
+    [
+      "00d37fe1-dad3-429e-96ce-64b8e6f24afc",
+      "main-regulator"
     ]
   ],
   "text_variables": {}
