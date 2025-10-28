@@ -933,6 +933,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1202,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 85.09) (xy 161.29 85.09)
+			(xy 157.48 85.09) (xy 162.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1339,28 +1464,6 @@
 			(type default)
 		)
 		(uuid "fc5901e0-3154-47a9-b21c-c92d184c8110")
-	)
-	(global_label "Vbatt"
-		(shape input)
-		(at 161.29 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f2d97667-5766-4e1f-8d6f-88decb179846")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.1132 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -1914,7 +2017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6dc7c57-96f1-4b10-aa0b-6cde87073a71")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 147.32 113.03 0)
 			(effects
 				(font
@@ -1964,7 +2067,7 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2041,6 +2144,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 162.56 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d934a1b8-5aec-456f-8977-1b82303ee887")
+		(property "Reference" "#PWR01"
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 166.37 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8241237-12e0-4d28-82de-1f83bc543fd2")
+		)
+		(instances
+			(project "dc-dc-converter"
+				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 97.79 0)
 		(unit 1)
@@ -2050,7 +2220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdc09aae-6223-4616-8f71-57a036bd9afd")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 123.19 104.14 0)
 			(effects
 				(font
@@ -2100,7 +2270,7 @@
 		(instances
 			(project ""
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
