@@ -1816,10 +1816,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c04c45a-59f6-4e1c-aa3a-07274a6f6ff0")
 		(property "Reference" "J2"
-			(at 113.03 85.09 0)
+			(at 112.776 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,6 +1831,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "footprints:XT30PW-M"
