@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "XT30PW-M")(type "KiCad")(uri "${KIPRJMOD}/footprints/XT30PW-M.kicad_sym")(options "")(descr ""))
   (lib (name "GSB1C411111DS1HR")(type "KiCad")(uri "${KIPRJMOD}/footprints/GSB1C411111DS1HR.kicad_sym")(options "")(descr ""))
+  (lib (name "AOZ2254TQI-11")(type "KiCad")(uri "${KIPRJMOD}/footprints/AOZ2254TQI-11.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS25730DREFR")(type "KiCad")(uri "${KIPRJMOD}/footprints/TPS25730DREFR.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP4018T")(type "KiCad")(uri "${KIPRJMOD}/footprints/MCP4018T.kicad_sym")(options "")(descr ""))
 )

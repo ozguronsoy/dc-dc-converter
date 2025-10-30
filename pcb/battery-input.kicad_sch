@@ -1261,13 +1261,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "VIN: 0-45V"
+	(text "V: 0-28V\nI: 0-10 A"
 		(exclude_from_sim no)
-		(at 113.284 80.264 0)
+		(at 108.458 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "07eba473-91ba-4739-872e-77506fcdb60e")
 	)
@@ -1327,16 +1328,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 85.09) (xy 162.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af4bf47-a12b-411b-8b4e-35feb4d0285e")
-	)
-	(wire
-		(pts
 			(xy 123.19 95.25) (xy 127 95.25)
 		)
 		(stroke
@@ -1374,6 +1365,16 @@
 			(type default)
 		)
 		(uuid "9aa895cc-4ba3-4464-a9dc-36803d9422b7")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33e7469-8b1d-451b-8e67-82d47ac3ffd0")
 	)
 	(wire
 		(pts
@@ -1475,7 +1476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05305cc9-4a87-439b-b4d4-41f93c028730")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 149.86 101.5999 0)
 			(effects
 				(font
@@ -1529,7 +1530,7 @@
 		(instances
 			(project ""
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1617,9 +1618,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0fe725df-7abc-4d41-b2ff-148b0e07a4f6")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 157.48 80.645 0)
 			(effects
 				(font
@@ -1669,7 +1669,73 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "#FLG01")
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 161.29 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1855b95c-9ae0-45c1-86d2-fb2afe7badb9")
+		(property "Reference" "#PWR016"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 165.1 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61bd6273-11af-490a-b00c-cde5133f895b")
+		)
+		(instances
+			(project "dc-dc-converter"
+				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -1685,7 +1751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f17d788-4378-48eb-a933-7a916ebac1b0")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG07"
 			(at 128.905 95.25 0)
 			(effects
 				(font
@@ -1736,7 +1802,7 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "#FLG03")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -1752,7 +1818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c04c45a-59f6-4e1c-aa3a-07274a6f6ff0")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 113.03 85.09 0)
 			(effects
 				(font
@@ -1935,7 +2001,7 @@
 		(instances
 			(project ""
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1951,7 +2017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f844ced-cc37-40ac-b232-571c2ef9f8df")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG06"
 			(at 124.46 88.265 0)
 			(effects
 				(font
@@ -2001,7 +2067,7 @@
 		(instances
 			(project ""
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "#FLG02")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -2017,7 +2083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6dc7c57-96f1-4b10-aa0b-6cde87073a71")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR018"
 			(at 147.32 113.03 0)
 			(effects
 				(font
@@ -2067,7 +2133,7 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "#PWR03")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2081,7 +2147,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4b80d80-d7cc-4b54-9f89-83edf905749d")
 		(property "Reference" "D1"
 			(at 160.02 90.1699 90)
@@ -2092,7 +2157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "10V"
 			(at 160.02 92.7099 90)
 			(effects
 				(font
@@ -2101,7 +2166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -2144,73 +2209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 162.56 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d934a1b8-5aec-456f-8977-1b82303ee887")
-		(property "Reference" "#PWR01"
-			(at 158.75 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 166.37 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 162.56 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8241237-12e0-4d28-82de-1f83bc543fd2")
-		)
-		(instances
-			(project "dc-dc-converter"
-				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 97.79 0)
 		(unit 1)
@@ -2220,7 +2218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdc09aae-6223-4616-8f71-57a036bd9afd")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR017"
 			(at 123.19 104.14 0)
 			(effects
 				(font
@@ -2270,7 +2268,7 @@
 		(instances
 			(project ""
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701/66d35e0b-7a94-4b8f-acad-501f1b0d8814"
-					(reference "#PWR02")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

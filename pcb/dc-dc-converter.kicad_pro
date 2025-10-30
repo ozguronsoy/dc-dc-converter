@@ -613,12 +613,12 @@
       "Root"
     ],
     [
-      "66d35e0b-7a94-4b8f-acad-501f1b0d8814",
-      "battery-input"
-    ],
-    [
       "2a9822ba-b22b-4915-a848-999ad8f5695e",
       "usb-input"
+    ],
+    [
+      "66d35e0b-7a94-4b8f-acad-501f1b0d8814",
+      "battery-input"
     ],
     [
       "72febd49-5656-4f09-bfcd-5afa6d494af7",

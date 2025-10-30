@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 40.64)
+		(at 29.21 27.94)
 		(size 16.51 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64,7 +64,7 @@
 		)
 		(uuid "2a9822ba-b22b-4915-a848-999ad8f5695e")
 		(property "Sheetname" "usb-input"
-			(at 29.21 39.9284 0)
+			(at 29.21 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-input.kicad_sch"
-			(at 29.21 46.3046 0)
+			(at 29.21 33.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +90,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 27.94)
+		(at 29.21 40.64)
 		(size 16.51 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "66d35e0b-7a94-4b8f-acad-501f1b0d8814")
 		(property "Sheetname" "battery-input"
-			(at 29.21 27.2284 0)
+			(at 29.21 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Sheetfile" "battery-input.kicad_sch"
-			(at 29.21 33.6046 0)
+			(at 29.21 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +126,7 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
