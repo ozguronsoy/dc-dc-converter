@@ -332,7 +332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d067d27-c2e5-42b3-8abc-0f2127eb2c4a")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR04"
 			(at 59.69 110.49 0)
 			(effects
 				(font
@@ -382,7 +382,7 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
-					(reference "#PWR079")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -398,7 +398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9e8457-8bba-4da2-8207-cbb57c8f4ea8")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR02"
 			(at 39.37 110.49 0)
 			(effects
 				(font
@@ -448,7 +448,7 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
-					(reference "#PWR077")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -464,7 +464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b0ca283-f366-4914-a31c-d9dff58f3d52")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR03"
 			(at 49.53 110.49 0)
 			(effects
 				(font
@@ -514,7 +514,7 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
-					(reference "#PWR078")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -734,7 +734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df70ec2f-b81a-4469-a53a-374e32fcbaac")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR01"
 			(at 29.21 110.49 0)
 			(effects
 				(font
@@ -784,7 +784,7 @@
 		(instances
 			(project "dc-dc-converter"
 				(path "/ccee8033-88df-4ecf-8f57-d6c93c61a701"
-					(reference "#PWR076")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
